@@ -12,7 +12,7 @@ const ProfileRef = () => {
         <div className=" w-[30rem] bg-white px-10 my-4 ">
           <p className=" pt-10 py-3 ">
             {" "}
-            Name <span className="  pl-10 font-bold ">Devendra Singh</span>{" "}
+            Name <span className="  pl-10 font-bold ">Sachin Kumar</span>{" "}
           </p>
           <p className=" py-3 ">
             {" "}
@@ -23,11 +23,11 @@ const ProfileRef = () => {
           </p>
           <p className=" py-3">
             {" "}
-            Year <span className="  pl-10 font-bold "> {"    "} 2nd</span>{" "}
+            Year <span className="  pl-10 font-bold "> {"    "} 3rd</span>{" "}
           </p>
           <p className=" py-3 ">
             {" "}
-            Name <span className="  pl-10 font-bold ">Devendra Singh</span>{" "}
+            Name <span className="  pl-10 font-bold ">Sachin Kumar</span>{" "}
           </p>
           <p className=" py-3 ">
             {" "}

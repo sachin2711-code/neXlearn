@@ -12,21 +12,20 @@ const Profile = () => {
 
   useEffect(() => {
     if (!user) {
-      navigate('/')
+      navigate("/");
     }
-  }, [])
+  }, []);
 
   const handleSignOut = async () => {
     try {
       await signOut(auth);
-      navigate('/')
+      navigate("/");
       localStorage.removeItem("user");
       window.location.reload();
+    } catch (error) {
+      console.error("Error signing out:", error.message);
     }
-    catch (error) {
-      console.error('Error signing out:', error.message);
-    }
-  }
+  };
   return (
     <div className="">
       <div className="vsm:max-sm:h-[15rem] w-screen px-4  bg-[#F3F3F3] h-[25rem]   flex justify-between ">
@@ -43,7 +42,7 @@ const Profile = () => {
         <div className="vsm:max-sm:overflow-scroll vsm:max-sm:text-sm vsm:max-sm:w-[20rem] w-[30rem] bg-white px-10 my-4 ">
           <p className=" pt-10 py-3 ">
             {" "}
-            Name <span className="  pl-10 font-bold ">Devendra Singh</span>{" "}
+            Name <span className="  pl-10 font-bold ">Sachin Kumar</span>{" "}
           </p>
           <p className=" py-3 ">
             {" "}
@@ -54,11 +53,11 @@ const Profile = () => {
           </p>
           <p className=" py-3">
             {" "}
-            Year <span className="  pl-10 font-bold "> {"    "} 2nd</span>{" "}
+            Year <span className="  pl-10 font-bold "> {"    "} 3rd</span>{" "}
           </p>
           <p className=" py-3 ">
             {" "}
-            Name <span className="  pl-10 font-bold ">Devendra Singh</span>{" "}
+            Name <span className="  pl-10 font-bold ">Sachin Kumar</span>{" "}
           </p>
           <p className=" py-3 ">
             {" "}
@@ -146,13 +145,21 @@ const Profile = () => {
         </div>
         <div className="vsm:max-sm: px-4 gap-5 h-screen py-4 flex sm:px-28 justify-between">
           <div className="vsm:max-sm:hidden flex flex-col gap-4 py-2 border border-dashed  border-black rounded-lg w-[25rem] h-auto bg-[#F3F3F3]">
-            <div className="vsm:max-sm:px-2 font-medium sm:ml-5">Computer Science Engineering</div>
+            <div className="vsm:max-sm:px-2 font-medium sm:ml-5">
+              Computer Science Engineering
+            </div>
             <div className="vsm:max-sm:px-2 font-medium sm:ml-5">
               Electronics and Communication Engineering
             </div>
-            <div className="vsm:max-sm:px-2 font-medium sm:ml-5">Electrical Engineering</div>
-            <div className="vsm:max-sm:px-2 font-medium sm:ml-5">Mechanical Engineering</div>
-            <div className="vsm:max-sm:px-2 font-medium sm:ml-5">Civil Engineering</div>
+            <div className="vsm:max-sm:px-2 font-medium sm:ml-5">
+              Electrical Engineering
+            </div>
+            <div className="vsm:max-sm:px-2 font-medium sm:ml-5">
+              Mechanical Engineering
+            </div>
+            <div className="vsm:max-sm:px-2 font-medium sm:ml-5">
+              Civil Engineering
+            </div>
           </div>
           <div className="vsm:max-sm: flex flex-wrap py-2 border border-dashed overflow-y-scroll  border-black rounded-lg  text-center w-[60rem] h-auto bg-[#F3F3F3]">
             {[...Array(25)].map((_, index) => (
