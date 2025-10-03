@@ -6,17 +6,6 @@ Welcome to neXlearn, where we unlock the full potential of your learning journey
 
 ![image info](./public/assests/Hero_Section.png)
 
-### Just Unlock the neXlearn. You Won't Believe What's Possible.
-### All Necessary Information and Links are provided.
-## Drive Link is Provided Here : https://drive.google.com/drive/folders/1adTNQqiBNJDQBqfaPb1fg8rfO4nVjJe9?usp=sharing
-
-# This drive include all Information about Project.
-# In this PPT of Project is Provided.
-# Features Implemeted in this Project through the Video
-# Deployed Link : https://nex-learn.vercel.app/
-
-
-
 ---
 
 ## Features
@@ -46,33 +35,6 @@ Our platform is built with the latest technologies to ensure a seamless and effi
 
 ---
 
-## Getting Started
-Live website URL : https://nex-learn.vercel.app/
-<br>
-To get started with neXlearn, <br>
-clone this repository and install the dependencies:
-git clone https://github.com/Harshsharmaa28/404-FOUND.git
-
-Now, creating the new react app <br>
-```bash
-npx create-react-app my-app
-```
-
-Installing the dependencies <br>
-```bash
- npm install
-```
-
-To run the application locally: <br>
-```bash
-npm start
-```
-
-
-This will launch neXlearn on localhost:3000.
-
----
-
 ## Working 
 
 ![image info](./public/assests/Flow%20Diagram.png)
@@ -94,58 +56,3 @@ Overall, the flow diagram provides a simple visual representation of the two mai
 
 
 ---
-## Have a Doubt, Not anymore:
-
-
-
-![Screenshot 2024-04-07 185252](https://github.com/dev04sa/404-FOUND/assets/129666293/96f4f19a-86a8-4872-a24b-6e6263cc2c3c)
-
-
----
-
-## Connect With US
-
-![Screenshot 2024-04-07 185226](https://github.com/dev04sa/404-FOUND/assets/129666293/6ccfb62f-775b-4a60-a6c6-49c33bf41627)
-
-
-
----
-
-## Support
-
-Got a question or need help? Check out our [FAQs](LINK_TO_FAQ) or contact our support team at [support@nexlearn.com](mailto:support@nexlearn.com).
-
-
----
-
-This README is just a starting point. Feel free to add more sections like 'Code of Conduct', 'Acknowledgments', or anything else you think will be helpful for users and contributors.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### npm run build fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
